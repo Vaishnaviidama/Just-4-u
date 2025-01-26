@@ -1,0 +1,80 @@
+body {
+    background-color: #FFCC00;
+}
+
+.login-div {
+    margin: 100px auto;
+    width: 500px;
+    background-color: #fff;
+    padding: 60px;
+}
+
+.title, .sub-title {
+    text-align: center;
+    color: #505050;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.sub-title {
+    font-size: 18px;
+}
+
+.font {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.form input {
+    font-size: 18px;
+    padding: 10px 20px 10px 5px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.usn, .password {
+    display: block;
+    border-radius: 30px;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.form svg {
+    height: 25px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 0px;
+    margin-bottom: 30px;
+}
+
+button.signin-btn {
+    width: 100%;
+    padding: 12px 10px;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: #FFCC00;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.sign-up {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #505050;
+}
